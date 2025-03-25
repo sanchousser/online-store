@@ -1,21 +1,24 @@
 import PropTypes from 'prop-types';
+import { Card, CardQuantity } from './CardItem.styled';
+
+
 
 export const CardItem = ({ item }) => {
 
     const total = item.price * item.quantity
 
     return (
-        <div>
+        <Card>
             <p>{item.name}</p>
             <p>{item.price}$</p>
-            <div>
+            <CardQuantity>
                 <button>-</button>
                 <p>{item.quantity}</p>
                 <button>+</button>
-            </div>
+            </CardQuantity>
             <p>{total}$</p>
             <button>&times;</button>
-        </div>
+        </Card>
     )
 }
 

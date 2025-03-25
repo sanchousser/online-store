@@ -1,6 +1,7 @@
 import { InputForm } from "components/InputForm/InputForm";
 import { Loader } from "components/Loader/Loader";
 import { CardList } from "components/CardList/CardList";
+import { TotalAmount } from "components/TotalAmount/TotalAmount";
 
 
 const initialState = [
@@ -31,6 +32,7 @@ export const Container = () => {
             <InputForm />
             <Loader />
             <CardList items={initialState}/>
+            <TotalAmount items={initialState}/>
         </div>
     )
 }
