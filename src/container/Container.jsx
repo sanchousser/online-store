@@ -7,21 +7,31 @@ import { TotalAmount } from "components/TotalAmount/TotalAmount";
 const initialState = [
     {
         id: '1',
-        name: 'Painting',
-        price: 1000,
-        quantity: 2
+        name: 'PEUGEOT- LR01',
+        price: 1999.99,
+        quantity: 1,
+        image: '../images/Peugeot-bike.png'
     },
     {
         id: '2',
-        name: 'Vase',
-        price: 800,
-        quantity: 3
+        name: 'PILOT - CHROMOLY 520',
+        price: 3999.99,
+        quantity: 1,
+        image:  '../images/Pilot-bile.png'
     },
     {
         id: '3',
-        name: 'Sculpture',
-        price: 3000,
-        quantity: 1
+        name: 'SMITH - Trade',
+        price: 120,
+        quantity: 1,
+        image:  '../images/Helmet.png'
+    },
+    {
+        id: '4',
+        name: 'ELECTRIC - WHHERO',
+        price: 5499.99,
+        quantity: 1,
+        image:  '../images/White-bike.png'
     }
 ]
 
