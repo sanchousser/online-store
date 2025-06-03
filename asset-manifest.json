@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/online-store/static/css/main.7acaea2f.css",
-    "main.js": "/online-store/static/js/main.8f610724.js",
+    "main.css": "/online-store/static/css/main.042c6630.css",
+    "main.js": "/online-store/static/js/main.680f22d0.js",
+    "static/media/Peugeot-bike.png": "/online-store/static/media/Peugeot-bike.84c577e8030e5602b604.png",
     "index.html": "/online-store/index.html",
-    "main.7acaea2f.css.map": "/online-store/static/css/main.7acaea2f.css.map",
-    "main.8f610724.js.map": "/online-store/static/js/main.8f610724.js.map"
+    "main.042c6630.css.map": "/online-store/static/css/main.042c6630.css.map",
+    "main.680f22d0.js.map": "/online-store/static/js/main.680f22d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.8f610724.js"
+    "static/css/main.042c6630.css",
+    "static/js/main.680f22d0.js"
   ]
 }
